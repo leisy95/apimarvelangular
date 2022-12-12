@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+  margin-top: 4rem;
+}
+.title{
+  color: red;
+}
+.card{
+  box-shadow:  0 5px 5px rgba(0, 0, 0, 19),
+  0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 10px 0;
+  background-color: #040f13;
+  max-width: 529px;
+  transition: all 0.2 ease-in-out
+}
+.header h2 {
+  font-size: 20px;
+  color: #ffffff;
+}
+h4{
+  color: #ffffff;
+}
+.card:hover{
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+  0 6px 6px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+}
+
+img{
+  opacity: 0.7;
+  width: 100%;
+  height: 280px;
+  transition: opacity 0.7;
+}
+img:hover{
+  opacity: 1 ;
+}
+
+.card-inner{
+  padding: 10px;
+}
+.header a{
+ text-decoration: none;
+ color: black;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+navbar-nav{
+  justify-content: center;
+}
+
+
